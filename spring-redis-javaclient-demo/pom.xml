@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ithjy</groupId>
-    <artifactId>spring-redis-demo</artifactId>
+    <artifactId>spring-redis-javaclient-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-redis-demo</name>
     <description>spring-redis-demo</description>
