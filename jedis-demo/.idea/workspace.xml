@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d4479e-e229-4ed5-b016-f78c078aafc3" name="Changes" comment="" />
+    <list default="true" id="36d4479e-e229-4ed5-b016-f78c078aafc3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/main/java/com/ithjy/SpringRedisDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/main/java/com/ithjy/SpringRedisDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/main/java/com/ithjy/configuration/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/main/java/com/ithjy/configuration/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/main/java/com/ithjy/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/main/java/com/ithjy/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/test/java/com/ithjy/RedisTemplateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/RedisTemplateTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/test/java/com/ithjy/StringRedisTemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/StringRedisTemplateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/classes/com/ithjy/SpringRedisDemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/classes/com/ithjy/SpringRedisDemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/classes/com/ithjy/configuration/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/classes/com/ithjy/configuration/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/classes/com/ithjy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/classes/com/ithjy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/test-classes/com/ithjy/RedisTemplateTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/test-classes/com/ithjy/RedisTemplateTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/test-classes/com/ithjy/StringRedisTemplateTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/test-classes/com/ithjy/StringRedisTemplateTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +31,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sacrabe"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sacrabe/myRedis.git",
+    "accountId": "a536c1fc-69e8-4cd0-a722-41ae3e0f552e"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -50,6 +79,8 @@
     "Maven.spring-redis-demo [clean].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,7 +99,7 @@
   </component>
   <component name="RunManager" selected="JUnit.StringRedisTemplateTests.HashTest">
     <configuration name="RedisTemplateTests.objectTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-redis-demo" />
+      <module name="spring-redis-javaclient-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ithjy.*" />
@@ -84,7 +115,7 @@
       </method>
     </configuration>
     <configuration name="RedisTemplateTests.objectTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-redis-demo" />
+      <module name="spring-redis-javaclient-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ithjy.*" />
@@ -100,7 +131,7 @@
       </method>
     </configuration>
     <configuration name="StringRedisTemplateTests.HashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-redis-demo" />
+      <module name="spring-redis-javaclient-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ithjy.*" />
@@ -116,7 +147,7 @@
       </method>
     </configuration>
     <configuration name="StringRedisTemplateTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-redis-demo" />
+      <module name="spring-redis-javaclient-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ithjy.*" />
@@ -132,7 +163,7 @@
       </method>
     </configuration>
     <configuration name="StringRedisTemplateTests.objectTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-redis-demo" />
+      <module name="spring-redis-javaclient-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ithjy.*" />
@@ -148,7 +179,7 @@
       </method>
     </configuration>
     <configuration name="SpringRedisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-redis-demo" />
+      <module name="spring-redis-javaclient-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ithjy.SpringRedisDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,7 +210,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1767860675433</updated>
-      <workItem from="1767860675433" duration="13272000" />
+      <workItem from="1767860675433" duration="14890000" />
     </task>
     <servers />
   </component>
@@ -190,7 +221,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../spring-redis-demo/src/test/java/com/ithjy/RedisTemplateTests.java</url>
+          <url>file://$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/RedisTemplateTests.java</url>
           <line>13</line>
           <properties class="com.ithjy.RedisTemplateTests" method="contextLoads">
             <option name="EMULATED" value="true" />
@@ -199,7 +230,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../spring-redis-demo/src/test/java/com/ithjy/RedisTemplateTests.java</url>
+          <url>file://$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/RedisTemplateTests.java</url>
           <line>29</line>
           <properties class="com.ithjy.RedisTemplateTests" method="objectTest2">
             <option name="EMULATED" value="true" />
@@ -208,7 +239,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../spring-redis-demo/src/test/java/com/ithjy/StringRedisTemplateTest.java</url>
+          <url>file://$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/StringRedisTemplateTest.java</url>
           <line>16</line>
           <properties class="com.ithjy.StringRedisTemplateTests" method="contextLoads">
             <option name="EMULATED" value="true" />
