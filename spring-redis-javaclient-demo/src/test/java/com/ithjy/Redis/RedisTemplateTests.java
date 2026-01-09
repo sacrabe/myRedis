@@ -1,4 +1,4 @@
-package com.ithjy;
+package com.ithjy.Redis;
 
 import com.ithjy.pojo.User;
 import org.junit.jupiter.api.Test;

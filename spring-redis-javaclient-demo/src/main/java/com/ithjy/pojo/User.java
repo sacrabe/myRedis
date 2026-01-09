@@ -5,6 +5,16 @@ public class User {
     String name;
     int age;
 
+    int password ;
+
+    public void setPassword(int password) {
+        this.password = password;
+    }
+
+    public int getPassword() {
+        return password;
+    }
+
     public User(String name, int age) {
         this.name = name;
         this.age = age;
