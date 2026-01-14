@@ -35,6 +35,7 @@ public class VoucherServiceImpl extends ServiceImpl<VoucherMapper, Voucher> impl
         return Result.ok(vouchers);
     }
 
+    // 后台使用
     @Override
     @Transactional
     public void addSeckillVoucher(Voucher voucher) {
@@ -48,4 +49,6 @@ public class VoucherServiceImpl extends ServiceImpl<VoucherMapper, Voucher> impl
         seckillVoucher.setEndTime(voucher.getEndTime());
         seckillVoucherService.save(seckillVoucher);
     }
+
+
 }

@@ -12,6 +12,7 @@ spring:
     host: 192.168.100.128
     port: 6379
     password: 123456
+    database: 1
     lettuce:
       pool:
         max-active: 10
@@ -22,6 +23,9 @@ spring:
     default-property-inclusion: non_null # JSON处理时忽略非空字段
 mybatis-plus:
   type-aliases-package: com.hmdp.entity # 别名扫描包
+  global-config:
+    db-config:
+      id-type: auto
 logging:
   level:
     com.hmdp: debug

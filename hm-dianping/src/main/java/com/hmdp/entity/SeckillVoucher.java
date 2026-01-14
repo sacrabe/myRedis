@@ -58,4 +58,5 @@ public class SeckillVoucher implements Serializable {
     private LocalDateTime updateTime;
 
 
+
 }
