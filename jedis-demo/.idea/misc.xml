@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-redis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-redis-javaclient-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../hm-dianping/pom.xml" />
       </list>
     </option>
   </component>

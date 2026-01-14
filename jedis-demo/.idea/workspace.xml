@@ -5,19 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d4479e-e229-4ed5-b016-f78c078aafc3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/main/java/com/ithjy/SpringRedisDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/main/java/com/ithjy/SpringRedisDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/main/java/com/ithjy/configuration/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/main/java/com/ithjy/configuration/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/main/java/com/ithjy/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/main/java/com/ithjy/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/test/java/com/ithjy/RedisTemplateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/RedisTemplateTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/src/test/java/com/ithjy/StringRedisTemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/StringRedisTemplateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/classes/com/ithjy/SpringRedisDemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/classes/com/ithjy/SpringRedisDemoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/classes/com/ithjy/configuration/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/classes/com/ithjy/configuration/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/classes/com/ithjy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/classes/com/ithjy/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/test-classes/com/ithjy/RedisTemplateTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/test-classes/com/ithjy/RedisTemplateTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-redis-demo/target/test-classes/com/ithjy/StringRedisTemplateTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis-javaclient-demo/target/test-classes/com/ithjy/StringRedisTemplateTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/interceptor/LoginRedisInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/interceptor/RefreshInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/interceptor/SessionInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/utils/CacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/utils/RedisIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/RedisIdWorkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/service/ShopServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/ShopTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/ShopTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/entity/SeckillVoucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/entity/SeckillVoucher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IVoucherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IVoucherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/utils/RedisConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/utils/RedisConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/blog-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/blog-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/blog-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/blog-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/info-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/info-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/js/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/js/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/login2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/login2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/other-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/other-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/shop-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/shop-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/shop-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/shop-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/nginx.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +64,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sacrabe"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sacrabe&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sacrabe/myRedis.git",
-    "accountId": "a536c1fc-69e8-4cd0-a722-41ae3e0f552e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sacrabe/myRedis.git&quot;,
+    &quot;accountId&quot;: &quot;a536c1fc-69e8-4cd0-a722-41ae3e0f552e&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -68,20 +98,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.RedisIdWorker.executor": "Run",
     "JUnit.JedisTest.Hashtest2.executor": "Run",
     "JUnit.JedisTest.test1.executor": "Run",
+    "JUnit.RedisIdWorkerTest.testNextId.executor": "Run",
+    "JUnit.ShopServiceImplTest.executor": "Run",
+    "JUnit.ShopServiceImplTest.testSaveShop.executor": "Run",
     "JUnit.SpringRedisDemoApplicationTests.contextLoads.executor": "Run",
     "JUnit.SpringRedisDemoApplicationTests.objectTest1.executor": "Run",
     "JUnit.SpringRedisDemoApplicationTests.objectTest2.executor": "Run",
+    "JUnit.StringRedisTemplateTest.HashTest.executor": "Run",
     "JUnit.StringRedisTemplateTests.HashTest.executor": "Run",
     "JUnit.StringRedisTemplateTests.contextLoads.executor": "Run",
     "JUnit.StringRedisTemplateTests.objectTest1.executor": "Run",
     "Maven.spring-redis-demo [clean].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.HmDianPingApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java/com.hjy/redis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,88 +135,108 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.StringRedisTemplateTests.HashTest">
-    <configuration name="RedisTemplateTests.objectTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-redis-javaclient-demo" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\com.hjy\redis\" />
+      <recent name="D:\java\com.hjy\redis\hm-dianping" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\com.hjy\redis\hm-dianping\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ithjy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HmDianPingApplication">
+    <configuration name="RedisIdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.utils.RedisIdWorker" />
+      <module name="hm-dianping" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ithjy.*" />
+          <option name="PATTERN" value="com.hmdp.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ithjy" />
-      <option name="MAIN_CLASS_NAME" value="com.ithjy.RedisTemplateTests" />
-      <option name="METHOD_NAME" value="objectTest1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisIdWorkerTest.testNextId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmdp" />
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.RedisIdWorkerTest" />
+      <option name="METHOD_NAME" value="testNextId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTemplateTests.objectTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-redis-javaclient-demo" />
+    <configuration name="ShopServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hm-dianping" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ithjy.*" />
+          <option name="PATTERN" value="com.hmdp.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ithjy" />
-      <option name="MAIN_CLASS_NAME" value="com.ithjy.RedisTemplateTests" />
-      <option name="METHOD_NAME" value="objectTest2" />
+      <option name="PACKAGE_NAME" value="com.hmdp.service" />
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.service.ShopServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopServiceImplTest.testSaveShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmdp.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmdp.service" />
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.service.ShopServiceImplTest" />
+      <option name="METHOD_NAME" value="testSaveShop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringRedisTemplateTests.HashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringRedisTemplateTest.HashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-redis-javaclient-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ithjy.*" />
+          <option name="PATTERN" value="com.ithjy.Redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ithjy" />
-      <option name="MAIN_CLASS_NAME" value="com.ithjy.StringRedisTemplateTests" />
+      <option name="PACKAGE_NAME" value="com.ithjy.Redis" />
+      <option name="MAIN_CLASS_NAME" value="com.ithjy.Redis.StringRedisTemplateTest" />
       <option name="METHOD_NAME" value="HashTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringRedisTemplateTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-redis-javaclient-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ithjy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ithjy" />
-      <option name="MAIN_CLASS_NAME" value="com.ithjy.StringRedisTemplateTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringRedisTemplateTests.objectTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-redis-javaclient-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ithjy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ithjy" />
-      <option name="MAIN_CLASS_NAME" value="com.ithjy.StringRedisTemplateTests" />
-      <option name="METHOD_NAME" value="objectTest1" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="HmDianPingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hm-dianping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmdp.HmDianPingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringRedisTemplateTests.HashTest" />
-        <item itemvalue="JUnit.StringRedisTemplateTests.objectTest1" />
-        <item itemvalue="JUnit.StringRedisTemplateTests.contextLoads" />
-        <item itemvalue="JUnit.RedisTemplateTests.objectTest1" />
-        <item itemvalue="JUnit.RedisTemplateTests.objectTest2" />
+        <item itemvalue="JUnit.RedisIdWorkerTest.testNextId" />
+        <item itemvalue="Application.RedisIdWorker" />
+        <item itemvalue="JUnit.ShopServiceImplTest" />
+        <item itemvalue="JUnit.ShopServiceImplTest.testSaveShop" />
+        <item itemvalue="JUnit.StringRedisTemplateTest.HashTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +273,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1767860675433</updated>
-      <workItem from="1767860675433" duration="14890000" />
+      <workItem from="1767860675433" duration="18827000" />
+      <workItem from="1768130820462" duration="1253000" />
+      <workItem from="1768141607749" duration="1643000" />
+      <workItem from="1768187336955" duration="35000" />
+      <workItem from="1768187396538" duration="42174000" />
+      <workItem from="1768313615436" duration="21798000" />
     </task>
     <servers />
   </component>
@@ -221,18 +289,18 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/RedisTemplateTests.java</url>
+          <url>file://$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/Redis/RedisTemplateTests.java</url>
           <line>13</line>
-          <properties class="com.ithjy.RedisTemplateTests" method="contextLoads">
+          <properties class="com.ithjy.Redis.RedisTemplateTests" method="contextLoads">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/RedisTemplateTests.java</url>
+          <url>file://$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/Redis/RedisTemplateTests.java</url>
           <line>29</line>
-          <properties class="com.ithjy.RedisTemplateTests" method="objectTest2">
+          <properties class="com.ithjy.Redis.RedisTemplateTests" method="objectTest2">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -241,11 +309,20 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/../spring-redis-javaclient-demo/src/test/java/com/ithjy/StringRedisTemplateTest.java</url>
           <line>16</line>
-          <properties class="com.ithjy.StringRedisTemplateTests" method="contextLoads">
+          <properties class="com.ithjy.StringRedisTemplateTests">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/RedisIdWorkerTest.java</url>
+          <line>18</line>
+          <properties class="com.hmdp.RedisIdWorkerTest" method="testNextId">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
