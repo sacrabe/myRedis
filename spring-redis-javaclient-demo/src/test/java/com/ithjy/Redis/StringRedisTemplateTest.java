@@ -35,9 +35,10 @@ public class StringRedisTemplateTest {
     }
     @Test
     void HashTest(){
-        stringRedisTemplate.opsForHash().put("user:3","name","tom");
-        stringRedisTemplate.opsForHash().put("user:3","age","18");
+        stringRedisTemplate.opsForHash().put("user:3","name","tommmm");
+        stringRedisTemplate.opsForHash().put("user:3","age","35");
         String name = (String) stringRedisTemplate.opsForHash().get("user:3", "name");
+        //Object name = stringRedisTemplate.opsForHash().get("user:3", "name");
         System.out.println(name);
     }
 }
