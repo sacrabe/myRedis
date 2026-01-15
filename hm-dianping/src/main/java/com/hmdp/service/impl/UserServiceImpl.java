@@ -100,7 +100,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         // 3. 存储
         stringRedisTemplate.opsForHash().putAll(tokenKey,stringObjectMap);
         // 4. 设置有效期
-        stringRedisTemplate.expire(tokenKey,LOGIN_USER_TTL,TimeUnit.SECONDS);
+        //stringRedisTemplate.expire(tokenKey,LOGIN_USER_TTL,TimeUnit.SECONDS);
+        //stringRedisTemplate.expire(tokenKey,LOGIN_USER_TTL,TimeUnit.SECONDS);
 
         //session.setAttribute("user",userDTO);
 

@@ -5,31 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d4479e-e229-4ed5-b016-f78c078aafc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/config/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/interceptor/LoginRedisInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/interceptor/RefreshInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/interceptor/SessionInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/utils/CacheUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/utils/RedisIdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/RedisIdWorkerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/service/ShopServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/ShopTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/ShopTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/entity/SeckillVoucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/entity/SeckillVoucher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/utils/RLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/utils/SimpleRedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.run/HmDianPingApplication2.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/HmDianPingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/HmDianPingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/interceptor/RefreshInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/interceptor/RefreshInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IVoucherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/IVoucherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/utils/RedisConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/utils/RedisConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/conf/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/conf/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/blog-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/blog-detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/blog-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp/blog-edit.html" afterDir="false" />
@@ -45,8 +30,6 @@
       <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/access.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/logs/nginx.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,6 +71,9 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="24" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -121,7 +108,8 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.HmDianPingApplication.executor": "Run",
+    "Spring Boot.HmDianPingApplication.executor": "Debug",
+    "Spring Boot.HmDianPingApplication2.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/java/com.hjy/redis",
@@ -130,14 +118,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
+      "redis",
       "mysql"
     ]
   }
@@ -156,6 +145,25 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ithjy" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="HmDianPingApplication" value="STOPPED" />
+              <entry key="HmDianPingApplication2" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.HmDianPingApplication">
     <configuration name="RedisIdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -248,6 +256,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.RedisIdWorker" />
+      <item itemvalue="JUnit.RedisIdWorkerTest.testNextId" />
+      <item itemvalue="JUnit.ShopServiceImplTest" />
+      <item itemvalue="JUnit.ShopServiceImplTest.testSaveShop" />
+      <item itemvalue="JUnit.StringRedisTemplateTest.HashTest" />
+      <item itemvalue="Spring Boot.HmDianPingApplication" />
+      <item itemvalue="Spring Boot.HmDianPingApplication2" />
+      <item itemvalue="Spring Boot.SpringRedisDemoApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RedisIdWorkerTest.testNextId" />
@@ -278,12 +296,24 @@
       <workItem from="1768141607749" duration="1643000" />
       <workItem from="1768187336955" duration="35000" />
       <workItem from="1768187396538" duration="42174000" />
-      <workItem from="1768313615436" duration="21798000" />
+      <workItem from="1768313615436" duration="28940000" />
+      <workItem from="1768437977970" duration="16478000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -323,6 +353,16 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

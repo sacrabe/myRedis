@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="HmDianPingApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="hm-dianping" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmdp.HmDianPingApplication" />
+    <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

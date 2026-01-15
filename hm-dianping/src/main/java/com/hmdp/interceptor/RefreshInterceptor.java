@@ -45,7 +45,7 @@ public class RefreshInterceptor implements HandlerInterceptor {
         // 已登录，存入threadlocal
 
         UserHolder.saveUser(userDTO);
-        stringRedisTemplate.expire(tokenKey, RedisConstants.LOGIN_USER_TTL, TimeUnit.SECONDS);
+        //stringRedisTemplate.expire(tokenKey, RedisConstants.LOGIN_USER_TTL, TimeUnit.SECONDS);
 
         return true;
     }
