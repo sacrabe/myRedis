@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d4479e-e229-4ed5-b016-f78c078aafc3" name="Changes" comment="add html">
+    <list default="true" id="36d4479e-e229-4ed5-b016-f78c078aafc3" name="Changes" comment="Revert &quot;add&quot;&#10;&#10;This reverts commit db905edf7fef042b0df5340b5ae4e5b7630020a4.&#10;&#10;# Conflicts:&#10;#&#9;jedis-demo/.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
