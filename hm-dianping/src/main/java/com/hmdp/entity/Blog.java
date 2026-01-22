@@ -37,7 +37,7 @@ public class Blog implements Serializable {
      */
     private Long shopId;
     /**
-     * 用户id
+     * 用户idtb_voucher_order
      */
     private Long userId;
     /**

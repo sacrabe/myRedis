@@ -14,6 +14,8 @@ public class RedisConfig {
         config.useSingleServer().setAddress("redis://192.168.100.128:6379").setPassword("123456").setDatabase(1);
         return Redisson.create( config );
     }
+
+    /*
     @Bean
     public RedissonClient redissonClient1() {
         Config config = new Config();
@@ -26,5 +28,5 @@ public class RedisConfig {
         config.useSingleServer().setAddress("redis://192.168.100.128:6381").setPassword("123456");
         return Redisson.create( config );
     }
-
+*/
 }

@@ -39,7 +39,8 @@ public class SimpleRedisLock implements RLock {
     /**
      *
      * lua 脚本实现  判断和删除的原子性
-     *  由原来的两行代码  变为 一行代码   确保原子性
+     *  由原来的两行代码 判断 + 释放
+     *  变为 一行代码   确保原子性
      *
      */
 
