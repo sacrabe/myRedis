@@ -263,6 +263,9 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="36d4479e-e229-4ed5-b016-f78c078aafc3" name="Changes" comment="" />
@@ -354,7 +357,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/VoucherOrderControllerTest.java</url>
           <line>50</line>
-          <properties class="com.hmdp.VoucherOrderControllerTest" method="login">
+          <properties class="com.hmdp.VoucherOrderControllerTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -377,37 +380,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java</url>
-          <line>217</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java</url>
-          <line>222</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java</url>
-          <line>105</line>
+          <line>373</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java</url>
-          <line>104</line>
+          <line>372</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java</url>
-          <line>106</line>
+          <line>374</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java</url>
-          <line>195</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java</url>
-          <line>111</line>
+          <line>379</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
