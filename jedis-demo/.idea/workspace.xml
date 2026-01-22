@@ -22,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -59,56 +64,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.RedisIdWorker.executor": "Run",
-    "JUnit.JedisTest.Hashtest2.executor": "Run",
-    "JUnit.JedisTest.test1.executor": "Run",
-    "JUnit.RedisIdWorkerTest.testNextId.executor": "Run",
-    "JUnit.RedissonTest.method1.executor": "Run",
-    "JUnit.ShopServiceImplTest.executor": "Run",
-    "JUnit.ShopServiceImplTest.testSaveShop.executor": "Run",
-    "JUnit.SpringRedisDemoApplicationTests.contextLoads.executor": "Run",
-    "JUnit.SpringRedisDemoApplicationTests.objectTest1.executor": "Run",
-    "JUnit.SpringRedisDemoApplicationTests.objectTest2.executor": "Run",
-    "JUnit.StringRedisTemplateTest.HashTest.executor": "Run",
-    "JUnit.StringRedisTemplateTests.HashTest.executor": "Run",
-    "JUnit.StringRedisTemplateTests.contextLoads.executor": "Run",
-    "JUnit.StringRedisTemplateTests.objectTest1.executor": "Run",
-    "JUnit.VoucherOrderControllerTest.login.executor": "Run",
-    "Maven.spring-redis-demo [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.HmDianPingApplication.executor": "Run",
-    "Spring Boot.HmDianPingApplication2.executor": "Run",
-    "git-widget-placeholder": "Reverting in master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java/com.hjy/redis/hm-dianping/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.RedisIdWorker.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JedisTest.Hashtest2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JedisTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisIdWorkerTest.testNextId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedissonTest.method1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShopServiceImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShopServiceImplTest.testSaveShop.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringRedisDemoApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringRedisDemoApplicationTests.objectTest1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringRedisDemoApplicationTests.objectTest2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringRedisTemplateTest.HashTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringRedisTemplateTests.HashTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringRedisTemplateTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringRedisTemplateTests.objectTest1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VoucherOrderControllerTest.login.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-redis-demo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.HmDianPingApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HmDianPingApplication2.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java/com.hjy/redis/hm-dianping/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "redis",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redis&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -247,11 +252,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VoucherOrderControllerTest.login" />
-        <item itemvalue="JUnit.RedissonTest.method1" />
-        <item itemvalue="JUnit.RedisIdWorkerTest.testNextId" />
-        <item itemvalue="Application.RedisIdWorker" />
         <item itemvalue="JUnit.ShopServiceImplTest" />
+        <item itemvalue="JUnit.RedisIdWorkerTest.testNextId" />
+        <item itemvalue="JUnit.RedissonTest.method1" />
+        <item itemvalue="JUnit.VoucherOrderControllerTest.login" />
+        <item itemvalue="Application.RedisIdWorker" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +296,31 @@
       <option name="project" value="LOCAL" />
       <updated>1768870642907</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Revert &quot;add&quot;&#10;&#10;This reverts commit db905edf7fef042b0df5340b5ae4e5b7630020a4.&#10;&#10;# Conflicts:&#10;#&#9;jedis-demo/.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1769086740348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769086740348</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;add&quot;&#10;&#10;This reverts commit db905edf7fef042b0df5340b5ae4e5b7630020a4.&#10;&#10;# Conflicts:&#10;#&#9;jedis-demo/.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1769086760780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769086760780</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Revert &quot;add&quot;&#10;&#10;This reverts commit db905edf7fef042b0df5340b5ae4e5b7630020a4.&#10;&#10;# Conflicts:&#10;#&#9;jedis-demo/.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1769087089051</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1769087089051</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +342,8 @@
       <path value="$PROJECT_DIR$/../hm-dianping/src/main/resources/nginx-1.18.0/html/hmdp" />
     </ignored-roots>
     <MESSAGE value="add html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add html" />
+    <MESSAGE value="Revert &quot;add&quot;&#10;&#10;This reverts commit db905edf7fef042b0df5340b5ae4e5b7630020a4.&#10;&#10;# Conflicts:&#10;#&#9;jedis-demo/.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;add&quot;&#10;&#10;This reverts commit db905edf7fef042b0df5340b5ae4e5b7630020a4.&#10;&#10;# Conflicts:&#10;#&#9;jedis-demo/.idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -357,7 +387,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/../hm-dianping/src/test/java/com/hmdp/VoucherOrderControllerTest.java</url>
           <line>50</line>
-          <properties class="com.hmdp.VoucherOrderControllerTest">
+          <properties class="com.hmdp.VoucherOrderControllerTest" method="login">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

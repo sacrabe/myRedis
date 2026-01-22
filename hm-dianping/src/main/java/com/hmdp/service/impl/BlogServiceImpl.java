@@ -66,8 +66,32 @@ public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements IB
 
     @Override
     public Result likeBlog(Long id) {
+        // 获取当前用户
+        Long userId = UserHolder.getUser().getId();
+        // 判断当前用户是否已经点赞
+        String key = "blog:liked:" + id;
+        Boolean isMember = stringRedisTemplate.opsForSet().isMember(key, userId.toString());
+        if (BooleanUtil.isTrue(isMember)){
+            // 已经点赞
+            // 数据减一
+            boolean ifSucess = update().setSql("liked = liked - 1").eq("id", id).update();
+            if(ifSucess){
+                stringRedisTemplate.opsForSet().remove(key, userId.toString());
+            }
+            // 点赞数-1
 
-        return null;
+        }else {
+            // 未点赞
+            // 数据库+1
+            boolean ifSucess = update().setSql("liked = liked + 1").eq("id", id).update();
+            if(ifSucess){
+                stringRedisTemplate.opsForSet().add(key, userId.toString());
+            }
+
+        }
+
+
+        return Result.ok();
     }
 
     private void isBlogLiked(Blog blog) {
