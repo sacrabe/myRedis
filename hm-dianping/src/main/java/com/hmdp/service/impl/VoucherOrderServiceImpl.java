@@ -113,7 +113,7 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
 
                 } catch (Exception e) {
                     // 说明 可能创建订单但是未确认  即 pending-list 中有消息
-                    log.error("创建订单异常",e);
+                    log.error("创建订单异常 未确认  pendinglist before",e);
                     handlePendingList();
                 }
             }
@@ -144,7 +144,7 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
                     stringRedisTemplate.opsForStream().acknowledge(queueName,"g1", entries.getId());
 
                 } catch (Exception e) {
-                    log.error("创建订单异常",e);
+                    log.error("创建订单异常  pendinglist内部",e);
                     try {
                         Thread.sleep(200);
                     } catch (InterruptedException ex) {
@@ -166,7 +166,7 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
                     // 创建订单
                     handleVoucherOrder(voucherOrder);
                 } catch (Exception e) {
-                    log.error("创建订单异常",e);
+                    log.error("创建订单异常 创建订单",e);
                 }
             }
         }
