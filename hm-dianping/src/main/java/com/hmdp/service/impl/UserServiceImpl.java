@@ -14,13 +14,18 @@ import com.hmdp.service.IUserService;
 import com.hmdp.utils.RedisConstants;
 import com.hmdp.utils.RedisData;
 import com.hmdp.utils.RegexUtils;
+import com.hmdp.utils.UserHolder;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.redis.connection.BitFieldSubCommands;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -107,6 +112,46 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
 
 
         return Result.ok(token);
+
+    }
+
+    @Override
+    public Result sign() {
+        return null;
+    }
+
+    @Override
+    public Result signCount() {
+        Long id = UserHolder.getUser().getId();
+        LocalDateTime now = LocalDateTime.now();
+        // 拼接key
+        String keySuffix = now.format(DateTimeFormatter.ofPattern(":yyyyMM"));
+        String key = USER_SIGN_KEY +id + keySuffix;
+        // 当前是第几天
+        int dayOfMonth = now.getDayOfMonth();
+        List<Long> result = stringRedisTemplate.opsForValue().bitField(
+                key,
+                BitFieldSubCommands.create().get(BitFieldSubCommands.BitFieldType.unsigned(dayOfMonth)).valueAt(0)
+        );
+        if(result==null ||result.isEmpty()){
+            return Result.ok(0);
+        }
+        Long num = result.get(0);
+        if(num==null||num==0){
+            return Result.ok(0);
+        }
+        int count=0;
+         // 循环遍历天数
+        while(true){
+            if((num & 1)==0){
+                break;
+            }else{
+                count++;
+            }
+            num = num>>1;
+        }
+        return Result.ok(count);
+
 
     }
 }
