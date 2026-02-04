@@ -286,6 +286,7 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
         for (Shop shop : shops) {
             shop.setDistance(distanceMap.get(shop.getId().toString()).getValue());
         }
+        System.out.println();
         // 6.返回
         return Result.ok(shops);
     }
